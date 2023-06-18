@@ -19,7 +19,7 @@ from io import BytesIO
 import openai
 
 import os
- import streamlit as st
+import streamlit as st
 
 secrets = st.secrets
 
