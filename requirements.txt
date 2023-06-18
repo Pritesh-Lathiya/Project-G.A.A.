@@ -1,0 +1,5 @@
+openai
+GitPython
+langchain
+requests 
+nbformat
