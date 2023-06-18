@@ -2,4 +2,5 @@ openai
 GitPython
 langchain
 nbconvert
-requests nbformat
+requests 
+nbformat
