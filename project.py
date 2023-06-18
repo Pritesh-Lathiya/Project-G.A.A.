@@ -19,7 +19,7 @@ from io import BytesIO
 import openai
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Set your GitHub API key
 github_api_key = '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'
