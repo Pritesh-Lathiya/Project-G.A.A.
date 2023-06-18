@@ -18,11 +18,23 @@ from tokenize import tokenize, untokenize, NUMBER, STRING, NAME, OP
 from io import BytesIO
 import openai
 
+import os
+
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = os.environ.get('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')
 
 # Set your GitHub API key
-github_api_key = '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'
+github_api_key = os.environ.get('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')
+
+# Rest of your code goes here
+# ...
+
+
+# # Set your OpenAI API key
+# openai.api_key = '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'
+
+# # Set your GitHub API key
+# github_api_key = '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'
 
 MAX_TOKENS = 1000  # Set the maximum token limit for GPT
 
