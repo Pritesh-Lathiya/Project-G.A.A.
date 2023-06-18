@@ -22,7 +22,7 @@ import openai
 openai.api_key = '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'
 
 # Set your GitHub API key
-github_api_key = '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'
+github_api_key = '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'
 
 MAX_TOKENS = 1000  # Set the maximum token limit for GPT
 
