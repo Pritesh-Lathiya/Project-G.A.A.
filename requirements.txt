@@ -3,3 +3,4 @@ GitPython
 langchain
 requests 
 nbformat
+nbconvert
