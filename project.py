@@ -24,7 +24,7 @@ import streamlit as st
 secrets = st.secrets
 
 # Set your OpenAI API key
-openai.api_key = secrets["OpenAPI"]
+openai.api_key = secrets["Op"]
 
 # Set your GitHub API key
 github_api_key = secrets["gitAPI"]
