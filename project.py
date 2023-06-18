@@ -19,12 +19,15 @@ from io import BytesIO
 import openai
 
 import os
+ import streamlit as st
+
+secrets = st.secrets
 
 # Set your OpenAI API key
-openai.api_key = os.environ.get('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')
+openai.api_key = secrets["OpenAPI"]
 
 # Set your GitHub API key
-github_api_key = os.environ.get('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')
+github_api_key = secrets["gitAPI"]
 
 # Rest of your code goes here
 # ...
